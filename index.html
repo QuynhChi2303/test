@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+    :root{font-family: Georgia, 'Times New Roman', serif;color:#222}
+    body{scroll-behavior:smooth}
+    header h1{font-size:2rem;margin:0 0 8px}
+    nav a{margin-right:12px;color:#5b2ea6;text-decoration:underline}
+    section{margin:28px 0}
+    h2{font-size:1.6rem;margin-bottom:8px}
+    ul{margin:12px 0 0 22px}
+    li{margin:8px 0}
+    .back{display:inline-block;margin-top:12px}
+    footer{font-size:0.9rem;color:#555;border-top:1px solid #eee;padding-top:12px;margin-top:24px}
+    @media (max-width:480px){body{margin:8px;padding:14px}}
+  </style>
+</head>
+<body id="top">
+  <header>
+    <h1>Example Cafe Menu</h1>
+    <nav aria-label="Primary">
+      <a href="#starters">Starters</a>|
+      <a href="#mains">Main Courses</a>|
+      <a href="#desserts">Desserts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="starters" aria-labelledby="starters-heading">
+      <h2 id="starters-heading">Starters</h2>
+      <ul>
+        <li>Chestnut and Mushroom Goujons <span aria-hidden="true">(v)</span></li>
+        <li>Goat Cheese Salad <span aria-hidden="true">(v)</span></li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+      </ul>
+      <a class="back" href="#top">Back to top</a>
+    </section>
+
+    <section id="mains" aria-labelledby="mains-heading">
+      <h2 id="mains-heading">Main courses</h2>
+      <ul>
+        <li>Spinach and Ricotta Roulade <span aria-hidden="true">(v)</span></li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington <span aria-hidden="true">(v)</span></li>
+      </ul>
+      <a class="back" href="#top">Back to top</a>
+    </section>
+
+    <section id="desserts" aria-labelledby="desserts-heading">
+      <h2 id="desserts-heading">Desserts</h2>
+      <ul>
+        <li>Lemon Sorbet <span aria-hidden="true">(v)</span></li>
+        <li>Chocolate Mud Pie <span aria-hidden="true">(v)</span></li>
+        <li>Pecan Pie <span aria-hidden="true">(v)</span></li>
+        <li>Selection of Fine Cheeses from Around the World</li>
+      </ul>
+      <a class="back" href="#top">Back to top</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Items marked with a <strong>(v)</strong> are suitable for vegetarians.</p>
+  </footer>
+</body>
+</html>
+
