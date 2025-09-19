@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi cute</title>
+</head>
+<body>
+    <table style="width: 80%; height: 400px">
+        <tr style="height: 15%">
+            <td style="width: 10%"> </td>
+        </tr>
+    </table>
+</body>
+</html>
